@@ -54,3 +54,4 @@ env.yml
 # dynamodb local
 .dynamodb/
 *.dynamodb/
+database/.dynamodb/
