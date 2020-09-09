@@ -53,3 +53,5 @@ env.yml
 
 # dynamodb local
 *.dynamodb
+.dynamodb
+dynamodb
