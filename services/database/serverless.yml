@@ -15,7 +15,7 @@ provider:
 
 resources:
   Resources:
-    ProjectsTable:
+    OriginateTable:
       Type: AWS::DynamoDB::Table
       Properties:
         # Generate a name based on the stage
@@ -34,7 +34,7 @@ resources:
         BillingMode: PAY_PER_REQUEST
 
   Outputs:
-    ProjectsTableArn:
+    OriginateTableArn:
       Value:
          Fn::GetAtt:
           - OriginateTable
