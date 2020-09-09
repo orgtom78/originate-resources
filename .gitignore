@@ -52,6 +52,6 @@ env.yml
 .idea
 
 # dynamodb local
-.dynamodb/
+.dynamodb/*
 *.dynamodb/
 database/.dynamodb/
